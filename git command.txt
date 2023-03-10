@@ -1,0 +1,25 @@
+git init >>> menjadikan sebuah folder menjadi folder projek
+git add >>> menambah file baru/staging perubahan 
+git commit >>> menerapkan perubahan yang telah di staging
+git diff >>> melihat perubahan yang belum di staging
+git status >>> melihat daftar perubahan yang belum dan sudah di staging
+git rm >>> menghapus file dan menstaging penghapusan file
+git mv >>> memindah file dan menstaging pemindahan file
+git log >>> melihat riwayat commit
+git reset HEAD >>> membatalkan staging perubahan
+git checkout >>> membatalkan perubahan yang tidak di staging
+git clone >>> melakukan clone repository
+git remote add <shortname> <url> >>> menambah link remote repository ke repository sekarang
+git remote fetch <shortname> >>> download repository sebagai branch <shortname>/<branch_in_the_repository>
+git remote pull <shortname> >>> fetch repository lalu merge dengan branch saat ini
+git push [remote-shortname] [branch-name] >>> melakukan push branch ke remote repository (menerapkan perubahan
+branch ke remote repository)
+git remote rename [shortname] [new-shortname] >>> mengubah nama remote repository
+git branch >>> menampilkan daftar branch di repository saat ini
+git branch [nama] >>> membuat branch baru
+git switch [branch-name] >>> berganti branch
+git merge [branch-name] >>> merge branch ke branch saat ini
+git branch -d [branch-name] >>> menghapus branch
+jika terjadi merge conflict, cara menyelesaikannya sebagai berikut:
+1. menghapus line =====, <<<<<, dan >>>>>
+2. menghapus bagian yang tidak diinginkan ke file akhir
